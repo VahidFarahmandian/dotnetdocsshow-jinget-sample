@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jinget.Domain.Core" Version="2021.3.10.1" />
+    <PackageReference Include="Jinget.Domain.Services.Contracts" Version="2021.3.10.1" />
+  </ItemGroup>
+
+</Project>

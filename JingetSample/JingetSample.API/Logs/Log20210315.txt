@@ -1,0 +1,236 @@
+2021-03-15 15:02:13.516 +03:30 [Information] Application started. Press Ctrl+C to shut down.
+
+
+2021-03-15 15:02:13.525 +03:30 [Information] Hosting environment: Development
+
+
+2021-03-15 15:02:13.526 +03:30 [Information] Content root path: C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.API
+
+
+2021-03-15 15:02:13.685 +03:30 [Information] {"Method":"GET","Body":"","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/","ContentLength":504,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:13.5540336+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"820f0771-5890-4067-b671-a6c5695b6b0c","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:13.723 +03:30 [Error] {"Method":"GET","Body":"","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/","ContentLength":135,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:13.7045686+03:30","Description":"{\"StatusCode\":404}","SubSystem":"JingetSample.API","RequestId":"820f0771-5890-4067-b671-a6c5695b6b0c","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:19.142 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?username=sara_abc","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:19.1396644+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"032e2f09-6785-4284-afac-c7583e7c18b8","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:19.668 +03:30 [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development.
+
+
+2021-03-15 15:02:20.096 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":3,\"data\":[[{\"userName\":\"vahid_dadaism\",\"firstName\":\"vahid\",\"lastName\":\"farahmandian\"},{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?username=sara_abc","ContentLength":232,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:20.0939661+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"032e2f09-6785-4284-afac-c7583e7c18b8","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:25.182 +03:30 [Information] {"Method":"POST","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?username=sara_abc","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:25.1803255+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"d6e3b96c-8c64-41e0-9769-b8aa410893d8","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:25.854 +03:30 [Information] {"Method":"POST","Body":"","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?username=sara_abc","ContentLength":135,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:25.8523759+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"d6e3b96c-8c64-41e0-9769-b8aa410893d8","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:28.398 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?username=sara_abc","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:28.3956929+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"fa9cedcd-b1bf-44ec-9478-e993db50b85e","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:28.460 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"vahid_dadaism\",\"firstName\":\"vahid\",\"lastName\":\"farahmandian\"},{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"},{\"userName\":\"sara_abcd\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?username=sara_abc","ContentLength":294,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:28.4582706+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"fa9cedcd-b1bf-44ec-9478-e993db50b85e","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:50.491 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?pagesize=2&sortcolumn=username","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:50.4889394+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"d47138d7-f8c9-48d6-9963-779f15418657","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:50.544 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"vahid_dadaism\",\"firstName\":\"vahid\",\"lastName\":\"farahmandian\"},{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?pagesize=2&sortcolumn=username","ContentLength":171,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:50.5429045+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"d47138d7-f8c9-48d6-9963-779f15418657","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:57.624 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortcolumn=username","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:57.621458+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"082be3b9-c36c-4649-91d0-7d7c1686558c","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:02:57.683 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"vahid_dadaism\",\"firstName\":\"vahid\",\"lastName\":\"farahmandian\"},{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"},{\"userName\":\"sara_abcd\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortcolumn=username","ContentLength":294,"Detail":null,"UserName":null,"When":"2021-03-15T15:02:57.6814024+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"082be3b9-c36c-4649-91d0-7d7c1686558c","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:03:24.422 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortcolumn=username","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:03:24.4201448+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"9fc023f4-2c93-49b0-949b-ed7bc5c7c151","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:03:52.280 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"vahid_dadaism\",\"firstName\":\"vahid\",\"lastName\":\"farahmandian\"},{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"},{\"userName\":\"sara_abcd\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortcolumn=username","ContentLength":294,"Detail":null,"UserName":null,"When":"2021-03-15T15:03:52.2785077+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"9fc023f4-2c93-49b0-949b-ed7bc5c7c151","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:04:57.630 +03:30 [Information] Application started. Press Ctrl+C to shut down.
+
+
+2021-03-15 15:04:57.641 +03:30 [Information] Hosting environment: Development
+
+
+2021-03-15 15:04:57.642 +03:30 [Information] Content root path: C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.API
+
+
+2021-03-15 15:04:57.777 +03:30 [Information] {"Method":"GET","Body":"","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/","ContentLength":504,"Detail":null,"UserName":null,"When":"2021-03-15T15:04:57.6720167+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"25225f20-744a-4c22-a8f4-b052f6492a53","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:04:57.808 +03:30 [Error] {"Method":"GET","Body":"","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/","ContentLength":135,"Detail":null,"UserName":null,"When":"2021-03-15T15:04:57.7942015+03:30","Description":"{\"StatusCode\":404}","SubSystem":"JingetSample.API","RequestId":"25225f20-744a-4c22-a8f4-b052f6492a53","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:00.411 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:00.4087449+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"49afa1c6-72c5-435e-ab1c-01720fc6e645","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:00.934 +03:30 [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development.
+
+
+2021-03-15 15:05:03.398 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"},{\"userName\":\"sara_abcd\",\"firstName\":\"sara\",\"lastName\":\"nick\"},{\"userName\":\"vahid_dadaism\",\"firstName\":\"vahid\",\"lastName\":\"farahmandian\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username","ContentLength":294,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:03.3963344+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"49afa1c6-72c5-435e-ab1c-01720fc6e645","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:14.855 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&sortDirection=desc","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:14.8528773+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"a226008c-38a8-4905-8cce-c8e5dff08b3d","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:14.941 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"vahid_dadaism\",\"firstName\":\"vahid\",\"lastName\":\"farahmandian\"},{\"userName\":\"sara_abcd\",\"firstName\":\"sara\",\"lastName\":\"nick\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"},{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&sortDirection=desc","ContentLength":294,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:14.9398243+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"a226008c-38a8-4905-8cce-c8e5dff08b3d","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:23.205 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:23.2028543+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"1c220f26-d1be-446d-93a8-34c5d06bc8cf","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:23.266 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2","ContentLength":157,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:23.2651155+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"1c220f26-d1be-446d-93a8-34c5d06bc8cf","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:34.097 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageindex=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:34.0950931+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"c8967331-e95a-4aa3-84b8-28d0b04454ff","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:34.151 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageindex=1","ContentLength":157,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:34.1498781+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"c8967331-e95a-4aa3-84b8-28d0b04454ff","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:37.201 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageindex=2","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:37.1987142+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"9222b7c0-ea6b-4c8c-bad9-9a5ad690c0f4","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:37.254 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageindex=2","ContentLength":157,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:37.2526764+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"9222b7c0-ea6b-4c8c-bad9-9a5ad690c0f4","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:45.991 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=2","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:45.9887983+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"64f76a0f-cdfe-44c7-aefd-a320ba897cf4","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:46.051 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"sara_abcd\",\"firstName\":\"sara\",\"lastName\":\"nick\"},{\"userName\":\"vahid_dadaism\",\"firstName\":\"vahid\",\"lastName\":\"farahmandian\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=2","ContentLength":171,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:46.0481927+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"64f76a0f-cdfe-44c7-aefd-a320ba897cf4","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:49.737 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:49.7350769+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"4eb1c1ea-496e-4a84-945c-d7b7330b448d","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:49.795 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":157,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:49.7935288+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"4eb1c1ea-496e-4a84-945c-d7b7330b448d","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:52.332 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1=3","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:52.3297409+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"c8fbeefd-1640-457e-91ef-0cdccd990e71","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:05:52.359 +03:30 [Error] {"Method":"GET","Body":"{\"errors\":{\"pageNumber\":[\"The value '1=3' is not valid.\"]},\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"|78af0405-4a99593823ff7614.\"}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1=3","ContentLength":221,"Detail":null,"UserName":null,"When":"2021-03-15T15:05:52.3576002+03:30","Description":"{\"StatusCode\":400}","SubSystem":"JingetSample.API","RequestId":"c8fbeefd-1640-457e-91ef-0cdccd990e71","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:06:09.763 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=3","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:09.7612791+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"89b53a09-ace7-44e6-b1fc-cff0d99eca23","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:06:09.817 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=3","ContentLength":35,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:09.815091+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"89b53a09-ace7-44e6-b1fc-cff0d99eca23","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:06:14.541 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:14.5398009+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"b811e461-856e-4157-961c-ce76f5c6fcc4","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:06:14.596 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":157,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:14.5945976+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"b811e461-856e-4157-961c-ce76f5c6fcc4","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:06:21.397 +03:30 [Information] {"Method":"POST","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:21.394991+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"45bda37d-fb37-4438-b46e-5cc172f9bbce","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:06:27.127 +03:30 [Error] An account with given username already exists
+{"Method":"POST","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:21.394991+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"45bda37d-fb37-4438-b46e-5cc172f9bbce","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+   at JingetSample.DomainServices.UserDomainService.Create(UserModel param) in C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.DomainServices\UserDomainService.cs:line 27
+   at Jinget.Handlers.ApplicationService.BaseApplicationService`2.<>c__DisplayClass4_0.<Create>b__0(TModelType e)
+   at Jinget.Handlers.ApplicationService.CoreApplicationService`2.DoWork(Action`1 work, TModelType arg, Boolean commit)
+   at Jinget.Handlers.ApplicationService.BaseApplicationService`2.Create(TModelType param, Boolean commit)
+   at JingetSample.API.Controllers.UserController.<>c__DisplayClass3_0.<Create>b__0() in C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.API\Controllers\UserController.cs:line 34
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at JingetSample.API.Controllers.UserController.Create(NewUserViewModel createUserViewModel) in C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.API\Controllers\UserController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Jinget.ApplicationCore.WebApi.Extensions.StartupExtensions.Application.ApplicationBuilderExtensions.<>c.<<ConfigureMiddlewares>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Jinget.Infrastructure.Logging.Members.RequestLogger`1.Log()
+
+
+2021-03-15 15:06:27.132 +03:30 [Error] {"Method":"POST","Body":"{\"error\":\"An account with given username already exists\"}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":222,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:27.1303529+03:30","Description":"{\"StatusCode\":500}","SubSystem":"JingetSample.API","RequestId":"45bda37d-fb37-4438-b46e-5cc172f9bbce","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:06:32.566 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:32.5615171+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"84022546-e4bd-46ad-a95d-66b06b24488b","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 15:06:32.616 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":157,"Detail":null,"UserName":null,"When":"2021-03-15T15:06:32.6142468+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"84022546-e4bd-46ad-a95d-66b06b24488b","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 18:48:31.085 +03:30 [Information] Application started. Press Ctrl+C to shut down.
+
+
+2021-03-15 18:48:31.100 +03:30 [Information] Hosting environment: Development
+
+
+2021-03-15 18:48:31.102 +03:30 [Information] Content root path: C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.API
+
+
+2021-03-15 18:48:31.302 +03:30 [Information] {"Method":"GET","Body":"","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/","ContentLength":504,"Detail":null,"UserName":null,"When":"2021-03-15T18:48:31.1433357+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"083445df-952e-4a1a-8573-ed962c572600","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 18:48:31.347 +03:30 [Error] {"Method":"GET","Body":"","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/","ContentLength":135,"Detail":null,"UserName":null,"When":"2021-03-15T18:48:31.3267509+03:30","Description":"{\"StatusCode\":404}","SubSystem":"JingetSample.API","RequestId":"083445df-952e-4a1a-8573-ed962c572600","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 18:48:39.872 +03:30 [Information] {"Method":"GET","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T18:48:39.8707117+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"563641ca-4cd7-4640-8d80-ad8ab4d6e7fa","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 18:48:40.474 +03:30 [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development.
+
+
+2021-03-15 18:48:40.975 +03:30 [Information] {"Method":"GET","Body":"{\"effectedRowsCount\":4,\"data\":[[{\"userName\":\"albert_\",\"firstName\":\"albert\",\"lastName\":\"john\"},{\"userName\":\"sara_abc\",\"firstName\":\"sara\",\"lastName\":\"nick\"}]]}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":157,"Detail":null,"UserName":null,"When":"2021-03-15T18:48:40.9730846+03:30","Description":"{\"StatusCode\":200}","SubSystem":"JingetSample.API","RequestId":"563641ca-4cd7-4640-8d80-ad8ab4d6e7fa","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 18:48:47.786 +03:30 [Information] {"Method":"POST","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T18:48:47.7846696+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"c77f1d34-f1a5-42a9-8e3f-366767a7d5fb","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
+2021-03-15 18:48:53.214 +03:30 [Error] An account with given username already exists
+{"Method":"POST","Body":"{\r\n    \"username\":\"sara_abcd\",\r\n    \"firstname\":\"sara\",\r\n    \"lastname\":\"nick\"\r\n}","Headers":"[]","IP":"::1","IsResponse":false,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":81,"Detail":null,"UserName":null,"When":"2021-03-15T18:48:47.7846696+03:30","Description":null,"SubSystem":"JingetSample.API","RequestId":"c77f1d34-f1a5-42a9-8e3f-366767a7d5fb","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+   at JingetSample.DomainServices.UserDomainService.Create(UserModel param) in C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.DomainServices\UserDomainService.cs:line 27
+   at Jinget.Handlers.ApplicationService.BaseApplicationService`2.<>c__DisplayClass4_0.<Create>b__0(TModelType e)
+   at Jinget.Handlers.ApplicationService.CoreApplicationService`2.DoWork(Action`1 work, TModelType arg, Boolean commit)
+   at Jinget.Handlers.ApplicationService.BaseApplicationService`2.Create(TModelType param, Boolean commit)
+   at JingetSample.API.Controllers.UserController.<>c__DisplayClass3_0.<Create>b__0() in C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.API\Controllers\UserController.cs:line 34
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at JingetSample.API.Controllers.UserController.Create(NewUserViewModel createUserViewModel) in C:\Users\Admin\Desktop\Jinget Sample\JingetSample\JingetSample.API\Controllers\UserController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Jinget.ApplicationCore.WebApi.Extensions.StartupExtensions.Application.ApplicationBuilderExtensions.<>c.<<ConfigureMiddlewares>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Jinget.Infrastructure.Logging.Members.RequestLogger`1.Log()
+
+
+2021-03-15 18:48:53.221 +03:30 [Error] {"Method":"POST","Body":"{\"error\":\"An account with given username already exists\"}","Headers":"[]","IP":"::1","IsResponse":true,"PageUrl":null,"Url":"http://localhost:16227/api/user?sortColumn=username&pagesize=2&pageNumber=1","ContentLength":222,"Detail":null,"UserName":null,"When":"2021-03-15T18:48:53.2194496+03:30","Description":"{\"StatusCode\":500}","SubSystem":"JingetSample.API","RequestId":"c77f1d34-f1a5-42a9-8e3f-366767a7d5fb","Id":0,"TobeRemoved":false,"DomainEvents":[]}
+
+
